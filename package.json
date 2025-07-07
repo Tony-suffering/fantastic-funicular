@@ -1,0 +1,64 @@
+{
+  "name": "cook100",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "mcp:supabase": "supabase-mcp-claude",
+    "test:photo-scoring": "node scripts/test-photo-scoring.js",
+    "test:amazon-api": "node scripts/test-amazon-api.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.17.1",
+    "@modelcontextprotocol/sdk": "^1.13.0",
+    "@supabase/supabase-js": "^2.39.0",
+    "chart.js": "^4.5.0",
+    "date-fns": "^4.1.0",
+    "dotenv": "^16.5.0",
+    "framer-motion": "^10.16.0",
+    "lucide-react": "^0.344.0",
+    "node-fetch": "^2.7.0",
+    "react": "^18.3.1",
+    "react-chartjs-2": "^5.3.0",
+    "react-countup": "^6.5.3",
+    "react-dom": "^18.3.1",
+    "react-error-boundary": "^6.0.0",
+    "react-intersection-observer": "^9.5.3",
+    "react-router-dom": "^6.20.1",
+    "recharts": "^3.0.2",
+    "supabase-mcp": "^1.5.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.1",
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.18",
+    "eslint": "^9.9.1",
+    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
+    "eslint-plugin-react-refresh": "^0.4.11",
+    "globals": "^15.9.0",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.5.3",
+    "typescript-eslint": "^8.3.0",
+    "vite": "^5.4.2"
+  },
+  "description": "料理写真を100人単位で共有するSNSアプリ",
+  "main": "eslint.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tony-suffering/ganni.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tony-suffering/ganni/issues"
+  },
+  "homepage": "https://github.com/Tony-suffering/ganni#readme"
+}
