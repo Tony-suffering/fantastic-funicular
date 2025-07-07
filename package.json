@@ -52,13 +52,13 @@
   "main": "eslint.config.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Tony-suffering/ganni.git"
+    "url": "git+https://github.com/Tony-suffering/fantastic-funicular.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Tony-suffering/ganni/issues"
+    "url": "https://github.com/Tony-suffering/fantastic-funicular/issues"
   },
-  "homepage": "https://github.com/Tony-suffering/ganni#readme"
+  "homepage": "https://github.com/Tony-suffering/fantastic-funicular#readme"
 }
